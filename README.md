@@ -2,7 +2,7 @@
 
 Interactive sensor interface written in AVR assembly for the ATmega128 (STK-300 board). EPFL MICRO-210 course project (group 063).
 
-![Hardware setup](images/board_setup.jpg)
+![Hardware setup](Images/board_setup.jpg)
 
 ## Features
 - **Menu** on a 2x16 LCD, navigated with a rotary encoder (turn to select, press to confirm)
@@ -16,7 +16,7 @@ Interactive sensor interface written in AVR assembly for the ATmega128 (STK-300 
 - `leds.asm`, `lcd.asm`, `printf.asm`, `encoder.asm`, `sound.asm`: peripherals
 - `macros.asm`, `definitions.asm`: provided constants and macros
 
-![Module diagram](images/module_diagram.png)
+![Module diagram](Images/module_diagram.png)
 
 ## Build
 Compile with Atmel Studio, then flash the ATmega128 with `avrisp`.
